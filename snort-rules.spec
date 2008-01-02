@@ -13,6 +13,7 @@ URL:		http://www.snort.org
 Source0:	http://www.snort.org/dl/snort-2.3.3.tar.gz
 Source1:	http://www.snort.org/dl/snort-2.3.3.tar.gz.asc
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 These rules were taken from snort-2.3.3 which was released under 
