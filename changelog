@@ -1,0 +1,18 @@
+ -- Javier Fernandez-Sanguino Pen~a <jfs@debian.org>  Wed, 01 Aug 2007 02:49:50 +0200
+
+snort (2.7.0-1) experimental; urgency=low
+
+  * Introduce all the rules available from the 2.4 release which are GPL and
+    are non-VRT certified, that is, all rules which are outside of the range
+    [3,465-1,000,000]. This amounts to a total of 3935 rules (820 of which are
+    Community released).
+  * In order to handle rulesets with mixed GPL and non-GPL rules two scripts
+    have been made available in the source rules/ subdirectory:
+        - remove-non-gpl.pl - Given a rules file removes all rules outside
+          the above range
+        - purge-non-gpl.sh - Given a directory dumps on the local directory
+          only rules outside this range.
+    In order to limit maintainer overhead the header for modified rulesets has
+    not been changed.
+  * Include the VRT license file. This file is kept for reference under the
+    rules/ dir, although *no* rule in this package is under that non-free license.

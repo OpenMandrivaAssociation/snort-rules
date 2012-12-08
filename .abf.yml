@@ -1,5 +1,2 @@
 sources:
-  "changelog:"	2c674531fecae907ca71bc3fdea8fd1425a365a4
-  "purge-non-gpl.sh:"	b4a891e2bc9cd6d4dc7e29573107996e92d68a21
-  "remove-non-gpl.pl:"	6f136733e6ba6cc3b610e9ec9229692e420100c7
-  "snortrules-pr-2.4.tar.bz2:"	a4945b242fe5dcabbb63da7f90076bc4b1b61196
+  "snortrules-pr-2.4.tar.bz2": a4945b242fe5dcabbb63da7f90076bc4b1b61196
