@@ -6,7 +6,7 @@
 Summary:	The GPL'ed Rulesets from snortrules-pr-%{version}
 Name:		snort-rules
 Version:	2.4
-Release:	%mkrel 9
+Release:	10
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.snort.org
