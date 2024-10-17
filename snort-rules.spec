@@ -9,7 +9,7 @@ Version:	2.4
 Release:	20
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.snort.org
+URL:		https://www.snort.org
 Source0:	snortrules-pr-%{version}.tar.bz2
 Source1:	purge-non-gpl.sh
 Source2:	remove-non-gpl.pl
